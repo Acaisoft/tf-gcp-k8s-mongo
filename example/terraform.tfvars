@@ -2,7 +2,7 @@ terragrunt = {
   terraform {
     source = "../"
     # Configure source as repository link
-    # source = "git::git@github.com:Acaisoft/tf-gcp-k8s-mongodb.git"
+    # source = "git::git@github.com:Acaisoft/tf-gcp-k8s-mongo.git"
   }
   
   remote_state {

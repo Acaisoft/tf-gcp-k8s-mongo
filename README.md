@@ -85,6 +85,10 @@ You can provide `values.yaml` file or simple use default values provided by char
 ## Replication
 You can start the MongoDB in replica set mode by setting `replicaSet.enabled` to `true`
 
+## Persistence
+The [Bitnami MongoDB](https://github.com/bitnami/bitnami-docker-mongodb) image stores the MongoDB data and configurations at the `/bitnami/mongodb` path of the container.
+The chart mounts a [Persistent Volume](http://kubernetes.io/docs/user-guide/persistent-volumes/) at this location. The volume is created using dynamic volume provisioning.
+
 ---
 For more information about chart used by this module visit [stable/mongodb]
 
